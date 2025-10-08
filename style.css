@@ -1,3 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+      "Arial", sans-serif;
+    overflow-x: hidden;
+  }
+img {
+  max-width: 100%;
+}
+/* Main content */
+/* common style properties for main */
+
+#hidden-section {
+    display: none;
+  }
+  .sections {
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+  }
+  .sections h2 {
+    font-size: 56px;
+    font-weight: 720;
+  }
+  .sections ul {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .sections ul li {
+    font-size: 20px;
+  }
+  .sections ul li a {
+    color: #06c;
+    padding-right: 25px;
+  }
+  .sections ul li a::after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
+  }
+  .sections ul li a:hover {
+    color: black;
+  }
+  
+  /* section one specific */
+  .one {
+    background-color: #fafafa;
+    padding: 25px 0;
+  }
+  .one h3 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .one p {
+    font-size: 18px;
+  }
+  /* section two specific */
+  .two {
+    background-image: url(./image/home/iphone11-pro-bg.jpg);
+    padding-top: 70px;
+  }
+  .two h2 {
+    color: white;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  .two h3 {
+    font-size: 26px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 10px;
+  }
+  .two p {
+    color: #86868b;
+    font-size: 17px;
+  }
+  /* section three specific */
+  .three {
+    background-image: url(./image/home/iphone11-bg.jpg);
+    padding-top: 56px;
+  }
+  .three h2 {
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  .three h3 {
+    font-weight: 400;
+    font-size: 26px;
+    padding-bottom: 10px;
+  }
+  .three p {
+    color: #86868b;
+    font-size: 18px;
+  }
+  .sec1 .right-side {
+    background-image: url(./image/home/apple-card.jpg);
+  }
 /* 4th wrapper start */
 .fourth-heghlight-wrapper {
   -webkit-box-pack: justify;
@@ -59,20 +165,9 @@
   background-position: bottom;
   background-color: #fafafa;
 }
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-img{
-max-width: 100%;
-}
-body {
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  overflow-x: hidden;
-}
+
+
 
 /* header style */
 header {
@@ -123,11 +218,11 @@ nav ul li a img {
 .bg-img {
   height: 580px;
   background-repeat: no-repeat;
-  background-size:initial;
+  background-size: initial;
   background-position: bottom;
 }
-.Macbook-container{
-background-image: url("/Images/macbook-pro.jpg");
+.Macbook-container {
+  background-image: url("/Images/macbook-pro.jpg");
 }
 
 .title {
@@ -135,7 +230,7 @@ background-image: url("/Images/macbook-pro.jpg");
   font-weight: 700;
   font-size: 30px;
 }
-.description{
+.description {
   font-size: 18px;
   font-weight: 500;
   opacity: 0.7;
@@ -165,7 +260,7 @@ background-image: url("/Images/macbook-pro.jpg");
 
 /* section2 style starts */
 
-.iPhonepro{
+.iPhonepro {
   background-image: url("/Images/iphone11-pro-bg.jpg");
 }
 
@@ -196,13 +291,13 @@ background-image: url("/Images/macbook-pro.jpg");
   background-image: url(/Images/watch-series-5.jpg);
   width: 48%;
   margin: 0 1%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 .Card-wrapper {
   background-image: url("/Images/apple-card.jpg");
   width: 48%;
   margin: 0 1%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 .content {
   text-align: center;
@@ -216,28 +311,27 @@ background-image: url("/Images/macbook-pro.jpg");
   background-image: url(./image/home/apple-tv-background.jpg);
   width: 48%;
   margin: 0 1%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 .watch-image {
   padding-top: 120px;
   display: flex;
   justify-content: center;
 }
-.trailer-text{
+.trailer-text {
   padding-top: 200px;
   display: flex;
   justify-content: center;
 }
-.trailer-text li{
-list-style: none;
+.trailer-text li {
+  list-style: none;
 }
-.trailer-text a{
-text-decoration: none;
-font-weight: 500;
-color: blue;
-
+.trailer-text a {
+  text-decoration: none;
+  font-weight: 500;
+  color: blue;
 }
-.exception-link a:hover{
+.exception-link a:hover {
   color: white;
 }
 .airpod-wrapper {
@@ -253,14 +347,13 @@ color: blue;
   width: 48%;
   color: black;
   margin: 0 1%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 .iPad-container {
   width: 48%;
   background-image: url("/Images/new-ipad.jpg");
   margin: 0 1%;
-  background-color: #FAFAFA;
-  
+  background-color: #fafafa;
 }
 
 .ipad {
@@ -269,8 +362,6 @@ color: blue;
 }
 
 /* footer */
-
-
 
 * {
   padding: 0;
