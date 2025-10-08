@@ -1,3 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+max-width: 100%;
+}
+body {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  overflow-x: hidden;
+}
+
+/* header style */
+header {
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  width: 80%;
+  margin: 0px auto;
+  padding: 18px 0px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 0.8em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+nav ul li a:hover {
+  opacity: 1;
+}
+
+nav ul li a img {
+  text-decoration: none;
+  width: 16px;
+}
+
+/* Section 1 style */
+.section1 {
+  background-color: #fafafa;
+  padding-top: 70px;
+}
+.bg-img {
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size:initial;
+  background-position: bottom;
+}
+.Macbook-container{
+background-image: url("/Images/macbook-pro.jpg");
+}
+
+.title {
+  padding: 10px 0px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.description{
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  padding-top: 20px;
+}
+
+.link a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 500;
+}
+.link a:hover {
+  color: black;
+}
+.fa-angle-right {
+  color: blue;
+}
+.fa-angle-right:hover {
+  color: black;
+}
+
+/* section2 style starts */
+
+.iPhonepro{
+  background-image: url("/Images/iphone11-pro-bg.jpg");
+}
+
+.iPhonepro {
+  color: white !important;
+}
+/* section3 */
+.content-part {
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.iPhone11 {
+  background-image: url("/Images/iphone11-bg.jpg");
+}
+
+/* flex section */
+.flex-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* WATCH and Card section */
+
+.watch-wrapper {
+  background-image: url(/Images/watch-series-5.jpg);
+  width: 48%;
+  margin: 0 1%;
+  background-color: #FAFAFA;
+}
+.Card-wrapper {
+  background-image: url("/Images/apple-card.jpg");
+  width: 48%;
+  margin: 0 1%;
+  background-color: #FAFAFA;
+}
+.content {
+  text-align: center;
+  margin-top: 70px;
+}
+.content img {
+  padding-bottom: 10px;
+}
+
+.tv-wrapper {
+  background-image: url(./image/home/apple-tv-background.jpg);
+  width: 48%;
+  margin: 0 1%;
+  background-color: #FAFAFA;
+}
+.watch-image {
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+.trailer-text{
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+.trailer-text li{
+list-style: none;
+}
+.trailer-text a{
+text-decoration: none;
+font-weight: 500;
+color: blue;
+
+}
+.exception-link a:hover{
+  color: white;
+}
+.airpod-wrapper {
+  background-image: url("./image/home/air-pods.jpg");
+  width: 48%;
+  color: white;
+  background-color: black;
+  margin: 0 1%;
+}
+
+.lastMacbook-container {
+  background-image: url("/Images/macbook-pro.jpg");
+  width: 48%;
+  color: black;
+  margin: 0 1%;
+  background-color: #FAFAFA;
+}
+.iPad-container {
+  width: 48%;
+  background-image: url("/Images/new-ipad.jpg");
+  margin: 0 1%;
+  background-color: #FAFAFA;
+  
+}
+
+.ipad {
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* footer */
+
+
+
 * {
   padding: 0;
   margin: 0;
