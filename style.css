@@ -1,3 +1,64 @@
+/* 4th wrapper start */
+.fourth-heghlight-wrapper {
+  -webkit-box-pack: justify;
+  display: flex;
+  justify-content: space-between;
+}
+.description-wraper {
+  margin: 0 auto;
+  padding: 9px;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+/* 4th-left side */
+.left-side-wrapper {
+  background-image: url("./image/home/watch-series-5.jpg");
+  color: black;
+  padding: 55px;
+  margin-right: 0.5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48.5%;
+  height: 580px;
+  text-align: center;
+}
+/* 4th-right side */
+.right-side-wrapper {
+  background-image: url("./image/home/apple-card.jpg");
+  color: black;
+  padding: 55px;
+  margin-left: 0.5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 580px;
+  text-align: center;
+  width: 48.5%;
+}
+
+/* 6th wrapper started */
+.sixth-heghlight-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+/* 6th left side started */
+.sixth-heghlight-wrapper .left-side-wrapper {
+  background-image: url(./image/home/macbook-pro.jpg);
+  background-color: #fafafa;
+  background-position: bottom;
+  background-size: initial;
+}
+.sixth-heghlight-wrapper .left-side-wrapper .product-title {
+  font-size: 2.8em;
+  font-weight: 400px;
+}
+/* 6th right side strart */
+.sixth-heghlight-wrapper .right-side-wrapper {
+  background-image: url(./image/home/new-ipad.jpg);
+  background-position: bottom;
+  background-color: #fafafa;
+}
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
